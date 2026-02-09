@@ -14,7 +14,7 @@ int main() {
   double baseSalary, comissionPercent, totalSales, employeeExpenses, comission, total;
 
   cout << "Which filename would you like to open?" << endl;
-  cin >> filename >> endl;
+  cin >> filename;
   inData.open(filename);
 
   cout << fixed << setprecision(2);
